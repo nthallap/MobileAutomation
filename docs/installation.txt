@@ -1,0 +1,36 @@
+How to install appium
+--------------------------------------------------
+http://appium.io/
+
+Step 1 : Check if node is installed on your system
+    node -v
+
+Step 2 : Install node.js
+    https://nodejs.org/en/download/
+    https://brew.sh/
+    brew install node
+
+Step 3 : Check if node is installed
+    node -v
+    npm -v
+
+Step 4 : Install appium
+    npm install -g appium
+
+Step 5 : Check appium is installed
+    appium -v
+
+Step 6 : Start appium
+    appium
+
+Appium-Doctor:
+https://www.npmjs.com/package/appium-...
+https://github.com/appium/appium-doctor
+
+npm install appium-doctor -g
+
+
+How to uninstall appium
+
+If installed through node.js
+npm uninstall -g appium
