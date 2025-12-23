@@ -14,4 +14,13 @@ new keyword
 *** Test Cases ***
 
 Test1
+    [Tags]   smoke1
+    Log    hello world
+
+Test2
+    [Tags]   smoke2
+    Log    hello world
+
+Test3
+    [Tags]   smoke3
     Log    hello world
